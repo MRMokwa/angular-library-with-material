@@ -1,3 +1,14 @@
-Lista:
-<br />
-<mkw-list [list]="list"></mkw-list>
+<div [ngClass]="theme$ | async">
+
+    <div id="button-container">
+        <button mat-flat-button color="primary" (click)="changeTheme('')">
+            Default Theme
+        </button>
+
+        <button mat-flat-button color="accent" (click)="changeTheme('dark-theme')">
+            Dark Teheme
+        </button>
+    </div>
+
+    <mkw-list [list]="list"></mkw-list>
+</div>

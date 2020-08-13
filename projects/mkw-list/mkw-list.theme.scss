@@ -1,0 +1,13 @@
+@mixin mkw-list-theme($theme) {
+  $foreground: map-get($theme, foreground);
+
+  .mat-list-item {
+    p[mat-line] {
+      color: map-get($foreground, secondary-text);
+    }
+
+    mat-icon[mat-list-icon] {
+      color: map-get($foreground, icon);
+    }
+  }
+}

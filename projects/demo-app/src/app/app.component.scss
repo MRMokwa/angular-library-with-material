@@ -1,0 +1,14 @@
+$space: 16px;
+
+:host {
+  display: block;
+  padding: #{$space};
+}
+
+#button-container {
+  margin-bottom: #{$space};
+
+  button {
+    margin-right: $space;
+  }
+}

@@ -1,0 +1,14 @@
+@import "~@angular/material/theming";
+
+@import "./body-color";
+@import "projects/mkw-list/mkw-list.theme.scss";
+
+@import "../themes/candy-app-theme.scss";
+@import "../themes/dark-app-theme.scss";
+
+@include mat-core();
+@include candy-app-theme();
+
+.dark-theme {
+  @include dark-app-theme();
+}

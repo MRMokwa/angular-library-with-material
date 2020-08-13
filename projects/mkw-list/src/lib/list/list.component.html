@@ -1,11 +1,22 @@
-<mat-list>
-    <mat-list-item *ngFor="let option of list">
-        <mat-icon *ngIf="option.icon" mat-list-icon>{{ option.icon }}</mat-icon>
-        <h3 mat-line>{{option.title}}</h3>
-        <p mat-line>{{option.description}}</p>
-    </mat-list-item>
-</mat-list>
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Library</mat-card-title>
+        <mat-card-subtitle>This is a custom library build with @angular/material</mat-card-subtitle>
+    </mat-card-header>
 
-<button mat-flat-button color="primary">Primary</button>
-<button mat-flat-button color="accent">Accent</button>
-<button mat-flat-button color="warn">Warn</button>
+    <mat-card-content>
+        <mat-list>
+            <mat-list-item *ngFor="let option of list">
+                <mat-icon *ngIf="option.icon" mat-list-icon>{{ option.icon }}</mat-icon>
+                <h3 mat-line>{{option.title}}</h3>
+                <p mat-line>{{option.description}}</p>
+            </mat-list-item>
+        </mat-list>
+    </mat-card-content>
+
+    <mat-card-actions>
+        <button mat-button color="primary">Primary</button>
+        <button mat-button color="accent">Accent</button>
+        <button mat-button color="warn">Warn</button>
+    </mat-card-actions>
+</mat-card>
