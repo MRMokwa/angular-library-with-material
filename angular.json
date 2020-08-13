@@ -27,9 +27,7 @@
               "projects/demo-app/src/favicon.ico",
               "projects/demo-app/src/assets"
             ],
-            "styles": [
-              "projects/demo-app/src/styles.scss"
-            ],
+            "styles": ["projects/demo-app/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -91,9 +89,7 @@
               "projects/demo-app/src/favicon.ico",
               "projects/demo-app/src/assets"
             ],
-            "styles": [
-              "projects/demo-app/src/styles.scss"
-            ],
+            "styles": ["projects/demo-app/src/styles.scss"],
             "scripts": []
           }
         },
@@ -105,9 +101,7 @@
               "projects/demo-app/tsconfig.spec.json",
               "projects/demo-app/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -124,45 +118,44 @@
         }
       }
     },
-    "mkt-list": {
+    "mkw-list": {
       "projectType": "library",
-      "root": "projects/mkt-list",
-      "sourceRoot": "projects/mkt-list/src",
-      "prefix": "lib",
+      "root": "projects/mkw-list",
+      "sourceRoot": "projects/mkw-list/src",
+      "prefix": "mkw",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/mkt-list/tsconfig.lib.json",
-            "project": "projects/mkt-list/ng-package.json"
+            "tsConfig": "projects/mkw-list/tsconfig.lib.json",
+            "project": "projects/mkw-list/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/mkt-list/tsconfig.lib.prod.json"
+              "tsConfig": "projects/mkw-list/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/mkt-list/src/test.ts",
-            "tsConfig": "projects/mkt-list/tsconfig.spec.json",
-            "karmaConfig": "projects/mkt-list/karma.conf.js"
+            "main": "projects/mkw-list/src/test.ts",
+            "tsConfig": "projects/mkw-list/tsconfig.spec.json",
+            "karmaConfig": "projects/mkw-list/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/mkt-list/tsconfig.lib.json",
-              "projects/mkt-list/tsconfig.spec.json"
+              "projects/mkw-list/tsconfig.lib.json",
+              "projects/mkw-list/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "demo-app"
 }

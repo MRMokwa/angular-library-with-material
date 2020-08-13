@@ -15,15 +15,9 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "lib": ["es2018", "dom"],
     "paths": {
-      "mkt-list": [
-        "dist/mkt-list/mkt-list",
-        "dist/mkt-list"
-      ]
+      "mkw-list": ["dist/mkw-list/mkw-list", "dist/mkw-list"]
     }
   },
   "angularCompilerOptions": {
