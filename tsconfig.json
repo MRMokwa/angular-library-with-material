@@ -12,6 +12,12 @@
     },
     {
       "path": "./projects/demo-app/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/mkt-list/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/mkt-list/tsconfig.spec.json"
     }
 ]
 }
