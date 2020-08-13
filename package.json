@@ -1,8 +1,9 @@
 {
-  "name": "@mrmokwa/list",
-  "version": "0.1.0",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "name": "angular-library-with-material",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MRMokwa/angular-library-with-material"
   },
   "scripts": {
     "ng": "ng",
@@ -12,7 +13,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~10.0.3",
     "@angular/common": "~10.0.3",
