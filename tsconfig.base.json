@@ -17,7 +17,7 @@
     "module": "es2020",
     "lib": ["es2018", "dom"],
     "paths": {
-      "mkw-list": ["dist/mkw-list/mkw-list", "dist/mkw-list"]
+      "mkw-list": ["projects/mkw-list/src"]
     }
   },
   "angularCompilerOptions": {
