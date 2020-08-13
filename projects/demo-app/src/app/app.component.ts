@@ -11,14 +11,17 @@ export class AppComponent {
     {
       title: 'Primeiro',
       description: '#1',
+      icon: 'home',
     },
     {
       title: 'Segundo',
       description: '#2',
+      icon: 'tune',
     },
     {
       title: 'Terceiro',
       description: '#3',
+      icon: 'done',
     },
   ];
 }
